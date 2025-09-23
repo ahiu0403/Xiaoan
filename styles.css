@@ -1,0 +1,19 @@
+/* Custom styles (minimal) */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Mobile menu hidden/visible classes */
+.mobile-menu-hidden {
+    display: none;
+}
+
+.mobile-menu-visible {
+    display: block;
+}
+
+/* Small tweaks */
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
