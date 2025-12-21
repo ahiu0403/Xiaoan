@@ -1,3 +1,13 @@
+這是加入「查單系統」按鈕後的完整代碼。
+
+我將新按鈕設計為 Teal (藍綠色) 色系，除了能與 LINE 的品牌色調呼應外，也能與現有的紫色（服務）、藍色（報價）、綠色（進度）按鈕做出視覺區隔，並同樣設定為新分頁開啟 (target="_blank")。
+
+code
+Html
+play_circle
+download
+content_copy
+expand_less
 <!DOCTYPE html>
 <html lang="zh-TW">
 
@@ -59,11 +69,17 @@
             <div class="flex flex-wrap justify-center gap-4">
                 <a href="services.html"
                     class="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">查看服務項目</a>
+                
                 <a href="process.html"
                     class="border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300">了解代購流程</a>
-                <!-- 新增自助報價按鈕 (藍色樣式) -->
+                
                 <a href="https://lesieann.github.io/giveprice/" target="_blank"
                     class="border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300">自助報價</a>
+                
+                <!-- 新增查單系統按鈕 (藍綠色樣式) -->
+                <a href="https://lin.ee/rmZNpRz" target="_blank"
+                    class="border-2 border-teal-600 text-teal-600 hover:bg-teal-600 hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300">查單系統</a>
+
                 <a href="https://woozy-chess-56c.notion.site/xiaoanprogressing" target="_blank"
                     class="border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300">代購進度表</a>
             </div>
@@ -124,7 +140,6 @@
         <section class="bg-white p-8 rounded-xl shadow-lg mt-12">
             <h2 class="text-2xl font-bold text-purple-600 mb-4">最新公告 / 更新紀錄</h2>
             <ul class="text-gray-700 list-disc pl-5 space-y-2">
-                <li>2025/12/9 集運倉運費調漲10元/kg，12/15開始實施。</li>
                 <li>2025/11/17 更改收費標準，12/1開始實施。</li>
                 <li>2025/09/20 新增關於「鈔能力」的說明與可加價解鎖服務。</li>
                 <li>2025/09/16 新增錄影範例、口令教學影片（可索取連結）。</li>
@@ -180,4 +195,3 @@
 </body>
 
 </html>
-
