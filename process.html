@@ -1,103 +1,108 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>小安專業代購服務 - 代購流程</title>
+    <title>小安大陸代購 - 代購流程</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="styles.css" />
 </head>
-
-<body data-page="process" class="bg-gray-100">
+<body class="bg-gray-100 text-gray-800">
     <!-- Header -->
     <header class="bg-white shadow-lg sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center py-4">
-                <div class="flex items-center">
-                    <a href="index.html" class="flex items-center text-2xl font-bold text-purple-600">
-                        <img src="img/logo.png" alt="小安代購LOGO" class="h-10 w-10 mr-3 rounded-full">
-                        小安大陸代購
-                    </a>
-                </div>
-                <nav class="hidden md:flex space-x-8">
-                    <a href="index.html" class="nav-link px-3 py-2 rounded-md text-sm font-medium">首頁</a>
-                    <a href="services.html" class="nav-link px-3 py-2 rounded-md text-sm font-medium">服務項目</a>
-                    <a href="process.html" class="nav-link px-3 py-2 rounded-md text-sm font-medium">代購流程</a>
-                    <a href="pricing.html" class="nav-link px-3 py-2 rounded-md text-sm font-medium">費用說明</a>
-                    <a href="tracking.html" class="nav-link px-3 py-2 rounded-md text-sm font-medium">服務條款</a>
-                    <a href="contact.html" class="nav-link px-3 py-2 rounded-md text-sm font-medium">聯繫我們</a>
-                </nav>
-                <div class="md:hidden">
-                    <button id="mobile-toggle" class="text-gray-500 hover:text-gray-700">
-                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div id="mobile-menu" class="md:hidden hidden border-t border-gray-200 px-2 pt-2 pb-3 space-y-1">
-            <a href="index.html" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium">首頁</a>
-            <a href="services.html" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium">服務項目</a>
-            <a href="process.html" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium">代購流程</a>
-            <a href="pricing.html" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium">費用說明</a>
-            <a href="tracking.html" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium">服務條款</a>
-            <a href="contact.html" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium">聯繫我們</a>
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-purple-600 flex items-center">
+                <img src="img/logo.png" alt="Logo" class="h-8 w-8 mr-2"> 小安大陸代購
+            </a>
+            <nav class="hidden md:flex space-x-6 font-medium">
+                <a href="index.html" class="hover:text-purple-600 text-gray-600">首頁</a>
+                <a href="services.html" class="hover:text-purple-600 text-gray-600">服務項目</a>
+                <a href="process.html" class="text-purple-600 border-b-2 border-purple-600">代購流程</a>
+                <a href="pricing.html" class="hover:text-purple-600 text-gray-600">費用說明</a>
+                <a href="tracking.html" class="hover:text-purple-600 text-gray-600">服務條款</a>
+                <a href="contact.html" class="hover:text-purple-600 text-gray-600">聯繫我們</a>
+            </nav>
         </div>
     </header>
 
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div class="text-center">
-            <h1 class="text-4xl font-bold text-gray-800 mb-4">代購流程說明</h1>
-            <p class="text-xl text-gray-600">從下單到收貨，六個簡單步驟完成您的代購需求</p>
+    <main class="max-w-4xl mx-auto px-4 py-12">
+        <div class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-gray-900 mb-4">最新代購流程</h1>
+            <p class="text-gray-600 text-lg">請遵循以下步驟完成下單，確保交易安全與效率</p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-            <div class="bg-white p-6 rounded-xl shadow-lg">
-                <div
-                    class="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center text-xl font-bold mb-4">
-                    1</div>
-                <h3 class="text-xl font-bold text-gray-800 mb-3">提交代購需求</h3>
-                <p class="text-gray-600">請提供商品連結、淘口令或詳細描述（下方有標準下單格式）</p>
+        <!-- 導向按鈕區 -->
+        <div class="grid md:grid-cols-2 gap-6 mb-12">
+            <a href="https://lin.ee/4ccEKjk" target="_blank" class="flex flex-col items-center p-6 bg-white rounded-2xl shadow-md hover:shadow-xl transition border-t-4 border-green-500">
+                <span class="bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm font-bold mb-3">步驟 1</span>
+                <span class="text-xl font-bold mb-2 text-gray-800 text-center">添加機器人提供信息</span>
+                <p class="text-gray-500 text-center text-sm">點擊下方連結先添加機器人以提供您的客戶信息</p>
+                <div class="mt-4 bg-green-500 text-white px-6 py-2 rounded-lg font-bold">點我立即添加機器人</div>
+            </a>
+
+            <a href="https://lin.ee/zKyR8B8" target="_blank" class="flex flex-col items-center p-6 bg-white rounded-2xl shadow-md hover:shadow-xl transition border-t-4 border-blue-500">
+                <span class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-bold mb-3">步驟 2</span>
+                <span class="text-xl font-bold mb-2 text-gray-800 text-center">加入官方 LINE 查看教學</span>
+                <p class="text-gray-500 text-center text-sm">獲取詳細下單指引與最新服務說明</p>
+                <div class="mt-4 bg-blue-500 text-white px-6 py-2 rounded-lg font-bold">點我加入官方 LINE</div>
+            </a>
+        </div>
+
+        <!-- 詳細下單指引 -->
+        <div class="bg-white rounded-2xl shadow-lg p-8">
+            <h2 class="text-2xl font-bold text-purple-600 mb-6 flex items-center">
+                <svg class="w-8 h-8 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
+                如何完成下單與付款？
+            </h2>
+            
+            <div class="space-y-6 text-gray-700 leading-relaxed text-lg">
+                <div class="flex items-start">
+                    <div class="bg-purple-600 text-white w-7 h-7 rounded-full flex-shrink-0 flex items-center justify-center mt-1 mr-4 text-sm font-bold shadow-sm">1</div>
+                    <p>請自行使用 <span class="text-purple-600 font-bold">報價系統</span> 查看金額後下單。</p>
+                </div>
+                <div class="flex items-start">
+                    <div class="bg-purple-600 text-white w-7 h-7 rounded-full flex-shrink-0 flex items-center justify-center mt-1 mr-4 text-sm font-bold shadow-sm">2</div>
+                    <p><strong>填寫在下單後提供的收款連結後付款</strong>。</p>
+                </div>
+                
+                <!-- 付款要求 -->
+                <div class="mt-8 bg-red-50 border-l-4 border-red-500 p-6 rounded-r-xl">
+                    <h3 class="text-red-600 font-bold text-xl mb-4">⚠️ 付款憑證必備要求</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-center">
+                            <span class="w-2.5 h-2.5 bg-red-500 rounded-full mr-3"></span>
+                            <span><strong>超商繳費：</strong> 務必提供「小白單收據」照片。</span>
+                        </li>
+                        <li class="flex items-center">
+                            <span class="w-2.5 h-2.5 bg-red-500 rounded-full mr-3"></span>
+                            <span><strong>銀行匯款：</strong> 務必提供「完整匯款過程錄影」。</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="bg-white p-6 rounded-xl shadow-lg">
-                <div
-                    class="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center text-xl font-bold mb-4">
-                    2</div>
-                <h3 class="text-xl font-bold text-gray-800 mb-3">報價確認</h3>
-                <p class="text-gray-600">小安核算商品價格及相關費用，並回傳報價單。</p>
-            </div>
-            <div class="bg-white p-6 rounded-xl shadow-lg">
-                <div
-                    class="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center text-xl font-bold mb-4">
-                    3</div>
-                <h3 class="text-xl font-bold text-gray-800 mb-3">付款下單</h3>
-                <p class="text-gray-600">確認價格後付款，請依匯款規則提供收據或存摺封面（首次匯款需手寫暱稱）。</p>
-            </div>
-            <div class="bg-white p-6 rounded-xl shadow-lg">
-                <div
-                    class="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center text-xl font-bold mb-4">
-                    4</div>
-                <h3 class="text-xl font-bold text-gray-800 mb-3">商品驗收</h3>
-                <p class="text-gray-600">商品抵達集運倉。</p>
-            </div>
-            <div class="bg-white p-6 rounded-xl shadow-lg">
-                <div
-                    class="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center text-xl font-bold mb-4">
-                    5</div>
-                <h3 class="text-xl font-bold text-gray-800 mb-3">國際運送</h3>
-                <p class="text-gray-600">安排國際物流，依集運方案與重量計價。</p>
-            </div>
-            <div class="bg-white p-6 rounded-xl shadow-lg">
-                <div
-                    class="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center text-xl font-bold mb-4">
-                    6</div>
-                <h3 class="text-xl font-bold text-gray-800 mb-3">完成交付</h3>
-                <p class="text-gray-600">包裹抵達台灣，提供賣貨便下單或是倉庫直寄。</p>
+
+            <!-- 教學按鈕區 -->
+            <div class="flex flex-wrap justify-center gap-6 mt-12 pt-8 border-t border-gray-100">
+                <a href="https://www.instagram.com/reel/DOrAZSVEglj/" target="_blank" class="flex items-center text-purple-600 hover:text-purple-800 font-bold bg-purple-50 px-6 py-3 rounded-xl transition">
+                    🎬 匯款錄影教學
+                </a>
+                <a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDA0OTc1Mzc1NDU1Mzg0" target="_blank" class="flex items-center text-purple-600 hover:text-purple-800 font-bold bg-purple-50 px-6 py-3 rounded-xl transition">
+                    📋 口令複製教學
+                </a>
             </div>
         </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-12 text-center">
+        <div class="max-w-7xl mx-auto px-4">
+            <p class="mb-2 font-bold text-lg">小安大陸代購</p>
+            <p class="text-gray-400 text-sm mb-4">專業、安全、透明的代購服務首選</p>
+            <div class="border-t border-gray-700 pt-6 mt-6">
+                <p class="text-gray-500 text-xs">&copy; 2025 小安大陸代購. 版權所有.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>        </div>
 
         <body class="bg-gray-100 p-4">
             <!-- 下單格式 & 匯款規則 -->
@@ -223,4 +228,5 @@
 </body>
 
 </html>
+
 
