@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 
-<body data-page="services" class="bg-gray-100">
-    <!-- Header (same as index) -->
+<body data-page="services" class="bg-gray-100 text-gray-800">
+    <!-- Header -->
     <header class="bg-white shadow-lg sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center py-4">
@@ -22,7 +22,7 @@
                 </div>
                 <nav class="hidden md:flex space-x-8">
                     <a href="index.html" class="nav-link px-3 py-2 rounded-md text-sm font-medium">首頁</a>
-                    <a href="services.html" class="nav-link px-3 py-2 rounded-md text-sm font-medium">服務項目</a>
+                    <a href="services.html" class="nav-link px-3 py-2 rounded-md text-sm font-medium text-purple-600 border-b-2 border-purple-600">服務項目</a>
                     <a href="process.html" class="nav-link px-3 py-2 rounded-md text-sm font-medium">代購流程</a>
                     <a href="pricing.html" class="nav-link px-3 py-2 rounded-md text-sm font-medium">費用說明</a>
                     <a href="tracking.html" class="nav-link px-3 py-2 rounded-md text-sm font-medium">服務條款</a>
@@ -38,64 +38,67 @@
                 </div>
             </div>
         </div>
-        <div id="mobile-menu" class="md:hidden hidden border-t border-gray-200 px-2 pt-2 pb-3 space-y-1">
-            <a href="index.html" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium">首頁</a>
-            <a href="services.html" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium">服務項目</a>
-            <a href="process.html" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium">代購流程</a>
-            <a href="pricing.html" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium">費用說明</a>
-            <a href="tracking.html" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium">服務條款</a>
-            <a href="contact.html" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium">聯繫我們</a>
-        </div>
     </header>
 
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="text-center">
             <h1 class="text-4xl font-bold text-gray-800 mb-4">服務項目詳情</h1>
             <p class="text-xl text-gray-600">提供完整的大陸代購服務，從下單到收貨，全程透明化管理</p>
         </div>
 
-        <div class="space-y-8 mt-8">
-            <div class="bg-white p-8 rounded-xl shadow-lg">
+        <div class="space-y-8 mt-12">
+            <!-- 主要代購平台 -->
+            <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-purple-500">
                 <h2 class="text-2xl font-bold text-purple-600 mb-6">主要代購平台</h2>
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <div class="border border-gray-200 p-4 rounded-lg">
-                        <h3 class="font-bold text-lg">閒魚代購 / 代售</h3>
-                        <p class="text-gray-600 mt-2">代購、代開、代寄、閒魚代售（包含議價與客訴協助）。</p>
+                    <div class="border border-gray-100 p-5 rounded-lg bg-gray-50 hover:bg-white hover:shadow-md transition">
+                        <h3 class="font-bold text-lg text-gray-800 italic">閒魚代購 / 代售</h3>
+                        <p class="text-gray-600 mt-2 text-sm leading-relaxed">代購、代開、代寄、閒魚代售（包含議價與客訴協助）。</p>
                     </div>
-                    <div class="border border-gray-200 p-4 rounded-lg">
-                        <h3 class="font-bold text-lg">淘寶代購</h3>
-                        <p class="text-gray-600 mt-2">淘寶商品代購，含連結 / 口令處理。</p>
+                    <div class="border border-gray-100 p-5 rounded-lg bg-gray-50 hover:bg-white hover:shadow-md transition">
+                        <h3 class="font-bold text-lg text-gray-800">淘寶代購</h3>
+                        <p class="text-gray-600 mt-2 text-sm">淘寶商品代購，含連結 / 口令處理。</p>
                     </div>
-                    <div class="border border-gray-200 p-4 rounded-lg">
-                        <h3 class="font-bold text-lg">拼多多代購</h3>
-                        <p class="text-gray-600 mt-2">支援拼多多商品採購與群組跟團處理。</p>
+                    <div class="border border-gray-100 p-5 rounded-lg bg-gray-50 hover:bg-white hover:shadow-md transition">
+                        <h3 class="font-bold text-lg text-gray-800">拼多多代購</h3>
+                        <p class="text-gray-600 mt-2 text-sm">支援拼多多商品採購與群組跟團處理。</p>
                     </div>
-                    <div class="border border-gray-200 p-4 rounded-lg">
-                        <h3 class="font-bold text-lg">微店 / 摩點</h3>
-                        <p class="text-gray-600 mt-2">微店與摩點等平台商品代購。</p>
+                    <div class="border border-gray-100 p-5 rounded-lg bg-gray-50 hover:bg-white hover:shadow-md transition">
+                        <h3 class="font-bold text-lg text-gray-800">微店 / 摩點</h3>
+                        <p class="text-gray-600 mt-2 text-sm">微店與摩點等平台商品代購。</p>
                     </div>
-                    <div class="border border-gray-200 p-4 rounded-lg">
-                        <h3 class="font-bold text-lg">抖音 / 小紅書</h3>
-                        <p class="text-gray-600 mt-2">直播平台周邊與推薦商品代購。</p>
+                    <div class="border border-gray-100 p-5 rounded-lg bg-gray-50 hover:bg-white hover:shadow-md transition">
+                        <h3 class="font-bold text-lg text-gray-800">抖音 / 小紅書</h3>
+                        <p class="text-gray-600 mt-2 text-sm">直播平台周邊與推薦商品代購。</p>
                     </div>
-                    <div class="border border-gray-200 p-4 rounded-lg">
-                        <h3 class="font-bold text-lg">B站 / 其他社群</h3>
-                        <p class="text-gray-600 mt-2">B站周邊、社群團購協助。</p>
+                    <div class="border border-gray-100 p-5 rounded-lg bg-gray-50 hover:bg-white hover:shadow-md transition">
+                        <h3 class="font-bold text-lg text-gray-800">B站 / 其他社群</h3>
+                        <p class="text-gray-600 mt-2 text-sm">B站周邊、社群團購協助。</p>
                     </div>
                 </div>
             </div>
 
+            <!-- 其他特色服務 -->
             <div class="bg-white p-8 rounded-xl shadow-lg">
                 <h2 class="text-2xl font-bold text-purple-600 mb-6">其他特色服務</h2>
                 <div class="space-y-6">
-                    <div class="flex items-start p-6 bg-gray-50 rounded-lg">
-                        <div class="text-3xl mr-4">🔄</div>
-                        <div>
+                    <!-- 閒魚換物區塊 -->
+                    <div class="flex flex-col md:flex-row items-start p-6 bg-gray-50 rounded-lg">
+                        <div class="text-4xl mr-6 mb-4 md:mb-0">🔄</div>
+                        <div class="flex-1">
                             <h3 class="text-xl font-bold text-gray-800 mb-2">閒魚換物 / 代出代寄</h3>
                             <p class="text-gray-600">閒魚換物、代寄服務，含順豐/郵政到付選項。</p>
-                            <div class="mt-2 text-sm text-gray-500">
-                                <p><strong>閒魚代售詳情：</strong></p>
-                                <ul class="list-disc pl-5 space-y-1">
+                            
+                            <!-- 新增的按鈕 -->
+                            <div class="mt-4 mb-4">
+                                <a href="https://lesieann.github.io/xiaoan-help-sell/" target="_blank" class="inline-block bg-purple-600 text-white px-6 py-2 rounded-lg font-bold hover:bg-purple-700 transition shadow-md">
+                                    前往閒魚代售報價系統
+                                </a>
+                            </div>
+
+                            <div class="mt-2 text-sm text-gray-500 leading-relaxed">
+                                <p class="font-bold text-gray-700 mb-2 underline">閒魚代售詳情：</p>
+                                <ul class="list-disc pl-5 space-y-2">
                                     <li>依匯率漲幅調整，一般是當日台灣銀行中間匯率-0.5。</li>
                                     <li>閑魚代售一律<strong>收取基礎手續費1.06%</strong>（閑魚收取的），若有差評需補償。</li>
                                     <li>僅接400r以上賣場，一條龍含溝通，僅代開賣場。</li>
@@ -104,28 +107,28 @@
                                     <li>僅代開賣場不退回押金，拍賣無人出價也不退還。</li>
                                     <li>代寄一律使用順豐到付。</li>
                                     <li>代開賣場需 70 元押金（條件說明在條款中），包含代出服務。</li>
-                                    <li>需要代寄會提供寄件代碼或是i郵箱資料供您寄出，收件人資料需提供本名，箱子貼面單的上方請幫我在明顯處寫代寄：（商品名），並包裝妥當。代開賣場請提供賣場內文、照片，我僅是代出不負責一切責任，若因商品毀損需要賠償，會在商品金額裡扣除。
-                                    </li>
+                                    <li>需要代寄會提供寄件代碼或是i郵箱資料供您寄出，收件人資料需提供本名，箱子貼面單的上方請幫我在明顯處寫代寄：（商品名），並包裝妥當。代開賣場請提供賣場內文、照片，我僅是代出不負責一切責任，若因商品毀損需要賠償，會在商品金額裡扣除。</li>
                                     <li>禁運送違禁品，具體違禁品請上順豐官網查詢。</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="flex items-start p-6 bg-gray-50 rounded-lg">
-                        <div class="text-3xl mr-4">📦</div>
-                        <div>
+
+                    <!-- 純代寄服務 -->
+                    <div class="flex flex-col md:flex-row items-start p-6 bg-gray-50 rounded-lg">
+                        <div class="text-4xl mr-6 mb-4 md:mb-0">📦</div>
+                        <div class="flex-1">
                             <h3 class="text-xl font-bold text-gray-800 mb-2">純代寄服務</h3>
                             <p class="text-gray-600">純代寄收費 100 元（含編號提供與包裝指示）。</p>
-                            <div class="mt-2 text-sm text-gray-500">
-                                <p>將提供店到店編號或是i郵箱資料供您寄出，使用順豐或郵政寄給收件人，收件人資料需提供本名，箱子貼面單的上方請幫我在明顯處寫<strong>代寄：（商品名）</strong>，並包裝妥當。運費一律到付。
-                                </p>
+                            <div class="mt-2 text-sm text-gray-500 leading-relaxed">
+                                <p>將提供店到店編號或是i郵箱資料供您寄出，使用順豐或郵政寄給收件人，收件人資料需提供本名，箱子貼面單的上方請幫我在明顯處寫<strong>代寄：（商品名）</strong>，並包裝妥當。運費一律到付。</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="flex items-start p-6 bg-gray-50 rounded-lg">
-                        <div class="text-3xl mr-4">💰</div>
-                        <div>
+                    <div class="flex flex-col md:flex-row items-start p-6 bg-gray-50 rounded-lg">
+                        <div class="text-4xl mr-6 mb-4 md:mb-0">💰</div>
+                        <div class="flex-1">
                             <h3 class="text-xl font-bold text-gray-800 mb-2">鈔能力服務</h3>
                             <p class="text-gray-600">部分不接或特殊服務可透過加價解鎖（視情況洽談）。</p>
                         </div>
@@ -133,30 +136,32 @@
                 </div>
             </div>
 
-            <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-r-lg">
-                <h3 class="text-lg font-bold text-yellow-800 mb-2">不接受的委託</h3>
-                <ul class="text-yellow-700 space-y-1 list-disc pl-5">
+            <!-- 不接受委託 -->
+            <div class="bg-red-50 border-l-4 border-red-400 p-6 rounded-r-lg">
+                <h3 class="text-lg font-bold text-red-800 mb-2">不接受的委託</h3>
+                <ul class="text-red-700 space-y-1 list-disc pl-5 text-sm">
                     <li>自備集運地址但非本人使用（例：借用朋友倉庫）</li>
                     <li>需額外下載特殊 APP 的委託（例：某些遊戲/專屬應用）</li>
                     <li>無禮的委託人或態度不佳者</li>
                     <li>閒魚口頭預留（不保留）</li>
                     <li>虛擬商品（遊戲帳號等）</li>
-                    <li>跨境商品（天貓國際 / 海外旗艦等，通常頁面會是紫色，並標寫跨境進口。此類商品須要找有大陸國籍的人代購）</li>
+                    <li>跨境商品（通常標寫跨境進口。此類商品須要找有大陸國籍的人代購）</li>
                 </ul>
             </div>
         </div>
     </main>
 
+    <!-- Footer -->
     <footer class="bg-gray-800 text-white py-12 mt-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-4 gap-8">
+            <div class="grid md:grid-cols-4 gap-8 border-b border-gray-700 pb-8">
                 <div>
-                    <h3 class="text-lg font-bold mb-4">小安代購</h3>
+                    <h3 class="text-lg font-bold mb-4 font-bold text-purple-400">小安代購</h3>
                     <p class="text-gray-300">專業大陸代購服務，讓您購物無憂！</p>
                 </div>
                 <div>
                     <h3 class="text-lg font-bold mb-4">服務項目</h3>
-                    <ul class="space-y-2 text-gray-300">
+                    <ul class="space-y-2 text-gray-300 text-sm">
                         <li>閒魚代購 / 代售</li>
                         <li>淘寶 / 拼多多 / 微店</li>
                         <li>抖音 / 小紅書 / B站</li>
@@ -165,25 +170,23 @@
                 </div>
                 <div>
                     <h3 class="text-lg font-bold mb-4">快速連結</h3>
-                    <ul class="space-y-2">
+                    <ul class="space-y-2 text-sm">
                         <li><a class="text-gray-300 hover:text-white" href="index.html">首頁</a></li>
-                        <li><a class="text-gray-300 hover:text-white" href="services.html">服務項目</a></li>
                         <li><a class="text-gray-300 hover:text-white" href="process.html">代購流程</a></li>
                         <li><a class="text-gray-300 hover:text-white" href="pricing.html">費用說明</a></li>
-                        <li><a class="text-gray-300 hover:text-white" href="tracking.html">服務條款</a></li>
                         <li><a class="text-gray-300 hover:text-white" href="contact.html">聯繫我們</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-lg font-bold mb-4">聯絡我們</h3>
-                    <div class="space-y-2 text-gray-300">
+                    <div class="space-y-2 text-gray-300 text-sm">
                         <p>服務時間: 09:00-21:00</p>
-                        <p>Email: <a href="mailto:xianan.uu@gmail.com" class="hover:text-white">xianan.uu@gmail.com</a></p>
+                        <p>Email: <a href="mailto:xianan.uu@gmail.com" class="hover:text-white underline text-purple-300 italic font-medium tracking-wide">xianan.uu@gmail.com</a></p>
                     </div>
                 </div>
             </div>
-            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
-                <p>&copy; 2025 小安代購. 版權所有.</p>
+            <div class="mt-8 text-center text-gray-400 text-sm italic font-medium tracking-wide">
+                <p>&copy; 2025 小安大陸代購. 版權所有.</p>
             </div>
         </div>
     </footer>
@@ -192,4 +195,3 @@
 </body>
 
 </html>
-
