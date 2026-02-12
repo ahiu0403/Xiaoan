@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>小安專業代購服務 - 首頁</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body data-page="home" class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center text-2xl font-bold text-purple-600">
+                        <img src="img/logo.png" alt="小安代購LOGO" class="h-10 w-10 mr-3 rounded-full">
+                        小安大陸代購
+                    </a>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="index.html" class="nav-link px-3 py-2 rounded-md text-sm font-medium active">首頁</a>
+                    <a href="services.html" class="nav-link px-3 py-2 rounded-md text-sm font-medium">服務項目</a>
+                    <a href="process.html" class="nav-link px-3 py-2 rounded-md text-sm font-medium">代購流程</a>
+                    <a href="pricing.html" class="nav-link px-3 py-2 rounded-md text-sm font-medium">費用說明</a>
+                    <a href="tracking.html" class="nav-link px-3 py-2 rounded-md text-sm font-medium">服務條款</a>
+                    <a href="contact.html" class="nav-link px-3 py-2 rounded-md text-sm font-medium">聯繫我們</a>
+                </nav>
+                <div class="md:hidden">
+                    <button id="mobile-toggle" class="text-gray-500 hover:text-gray-700">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="md:hidden hidden border-t border-gray-200 px-2 pt-2 pb-3 space-y-1">
+            <a href="index.html" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium">首頁</a>
+            <a href="services.html" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium">服務項目</a>
+            <a href="process.html" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium">代購流程</a>
+            <a href="pricing.html" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium">費用說明</a>
+            <a href="tracking.html" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium">服務條款</a>
+            <a href="contact.html" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium">聯繫我們</a>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- Hero -->
+        <section class="text-center py-20 bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl">
+            <h1 class="text-5xl font-bold text-gray-800 mb-6">小安專業代購服務</h1>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+                七年大陸代購經驗，閑魚好評百分百，熟悉圈內術語，提供公開、透明的代購進度表，國際收費一目了然。
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="services.html"
+                    class="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">查看服務項目</a>
+
+                <a href="process.html"
+                    class="border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300">了解代購流程</a>
+
+                <a href="https://lesieann.github.io/giveprice/" target="_blank"
+                    class="border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300">自助報價</a>
+
+                <!-- 新增查單系統按鈕 (藍綠色樣式) -->
+                <a href="https://lin.ee/rmZNpRz" target="_blank"
+                    class="border-2 border-teal-600 text-teal-600 hover:bg-teal-600 hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300">查單系統</a>
+
+                <a href="https://woozy-chess-56c.notion.site/xiaoanprogressing" target="_blank"
+                    class="border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300">代購進度表</a>
+            </div>
+        </section>
+
+        <!-- Services preview -->
+        <section class="space-y-8 mt-12">
+            <h2 class="text-3xl font-bold text-center text-gray-800">專業代購服務</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-bold text-purple-600 mb-3">閒魚代購 / 代售</h3>
+                    <p class="text-gray-600">閒魚代購與代售服務，代出代寄，含詢問、議價。部分服務需達門檻。</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-bold text-purple-600 mb-3">淘寶 / 拼多多 / 微店</h3>
+                    <p class="text-gray-600">淘寶、拼多多、微店代購，熟悉規則與價格協商。</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-bold text-purple-600 mb-3">抖音 / 小紅書 / B站</h3>
+                    <p class="text-gray-600">直播與社群平台周邊商品代購，包含跟團查詢。</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-bold text-purple-600 mb-3">國際運送 / 集運</h3>
+                    <p class="text-gray-600">提供巧巧郎、小安代集運等方案，透明計費與多種寄回台選項。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why choose -->
+        <section class="bg-white p-12 rounded-2xl shadow-lg mt-12">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">為什麼選擇小安代購？</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">✓</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">專業可靠</h3>
+                    <p class="text-gray-600">多年代購經驗，熟悉大陸平台與溝通細節。</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">🔒</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">安全透明</h3>
+                    <p class="text-gray-600">匯款規則與收費皆有明文說明，保護雙方安全。</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">⏱️</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">效率快速</h3>
+                    <p class="text-gray-600">上線即刻下單（視在線狀態），提供進度圖片與報價截圖。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest updates -->
+        <section class="bg-white p-8 rounded-xl shadow-lg mt-12">
+            <h2 class="text-2xl font-bold text-purple-600 mb-4">最新公告 / 更新紀錄</h2>
+            <ul class="text-gray-700 list-disc pl-5 space-y-2">
+                <li>2026/1/16 手續費變更為7.5%。</li>
+                <li>2025/12/31 全面使用綠界支付。</li>
+                <li>2025/12/23 改為自動化系統下單。</li>
+                <li>2025/11/17 更改收費標準，12/1開始實施。</li>
+                <li>2025/09/20 新增關於「鈔能力」的說明與可加價解鎖服務。</li>
+                <li>2025/09/16 新增錄影範例、口令教學影片（可索取連結）。</li>
+                <li>2025/08/12 手續費調整：增加包裹過重額外手續費；委託金額&lt;100R 增收30元。</li>
+                <li>2025/08/10 取消一切代付服務（重要）。</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12 mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-bold mb-4">小安代購</h3>
+                    <p class="text-gray-300">專業大陸代購服務，讓您購物無憂！</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">服務項目</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li>閒魚代購 / 代售</li>
+                        <li>淘寶 / 拼多多 / 微店</li>
+                        <li>抖音 / 小紅書 / B站</li>
+                        <li>集運 / 國際運送</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">快速連結</h3>
+                    <ul class="space-y-2">
+                        <li><a class="text-gray-300 hover:text-white" href="index.html">首頁</a></li>
+                        <li><a class="text-gray-300 hover:text-white" href="services.html">服務項目</a></li>
+                        <li><a class="text-gray-300 hover:text-white" href="process.html">代購流程</a></li>
+                        <li><a class="text-gray-300 hover:text-white" href="pricing.html">費用說明</a></li>
+                        <li><a class="text-gray-300 hover:text-white" href="tracking.html">服務條款</a></li>
+                        <li><a class="text-gray-300 hover:text-white" href="contact.html">聯繫我們</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">聯絡我們</h3>
+                    <div class="space-y-2 text-gray-300">
+                        <p>服務時間: 09:00-21:00</p>
+                        <p>Email: <a href="mailto:xianan.uu@gmail.com" class="hover:text-white">xianan.uu@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
+                <p>&copy; 2026 小安代購版權所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
